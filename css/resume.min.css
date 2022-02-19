@@ -24,7 +24,7 @@
   position: absolute;
   top: 3%;
   left: 50%;
-  background: #0af;
+  background: #ff3643;
   width: 500px;
   height: 500px;
   margin-left: 10px;
@@ -128,6 +128,12 @@ p.lead {
 }
 #sideNav .navbar-toggler:focus {
     outline-color: #83b9ff;
+    
+}
+#sideNav {
+  
+   background-color: red !important; 
+   
 }
 @media (min-width:992px) {
     #sideNav {
@@ -203,10 +209,10 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem!important;
 }
 }.bg-primary {
-    background-image: linear-gradient(to left, #0af, transparent 95%)!important;
-    -moz-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
-	-webkit-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
-	box-shadow: 4px 4px 7px rgba(0,170,255,.5);
+    background-image: linear-gradient(to left, #4a0005, transparent 95%)!important;
+    -moz-box-shadow: 4px 4px 7px rgba(255, 54, 67,.5);
+	-webkit-box-shadow: 4px 4px 7px rgba(255, 54, 67,.5);
+	box-shadow: 4px 4px 7px rgba(255, 54, 67,.5);
 }
 .text-primary {
     color: #448aff!important;
